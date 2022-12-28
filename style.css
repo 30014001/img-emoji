@@ -1,0 +1,46 @@
+body{
+	background: black;
+	color: white;
+	margin-left: 600px;
+	margin-top: 200px;
+
+}
+
+.emoji{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	border-radius: 50%;
+	border: 6px solid black;
+
+}
+
+.emoji::before,
+.emoji::after{
+	content: "";
+	position: absolute;
+	top: 30%;
+	width: 19px;
+	height: 19px;
+	background: black;
+	border-radius: 50%;
+}
+
+.emoji::before{
+	left: 27%;
+}
+
+.emoji::after{
+	right: 27%;
+}
+
+.mouth{
+	position: relative;
+	width: 80px;
+	height: 30px;
+	border-radius: 50%;
+	border-bottom: 30px solid black;
+	top: 50%;
+	left: 30%;
+}
