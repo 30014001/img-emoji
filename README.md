@@ -1,11 +1,13 @@
 # img-emoji
-Tecnologias
+## Tecnologias
 Projeto desenvolvido com as seguintes tecnologias:
 
-HTML
-CSS
+- HTML
+- CSS
+- Git
+- Github
 
-Projeto
+### Projeto
 Desenvolvi um designer de um emoji com codigo css.
 
 
